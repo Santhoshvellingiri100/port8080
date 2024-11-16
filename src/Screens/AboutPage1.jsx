@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./screen.module.css";
-import { Label01, Title02 } from "../theme/fonts";
+import { Label01, Subhead01, Title02 } from "../theme/fonts";
 import COLORS from "../theme/color";
 import LinkButton from "../components/LinkButton";
 import { CRT_TA_SONNA } from "../meta/data";
@@ -53,7 +53,7 @@ function AboutPage1() {
 const AboutImageCard = () => {
   return (
     <div className={styles.aboutImageCard}>
-      <div>
+      <div className={styles.aboutImageContainer}>
 
       <img src={CRT_TA_SONNA.about_page_card_image_url} style={{backgroundColor:"red",width:"100%",height:"100%"}} 
     

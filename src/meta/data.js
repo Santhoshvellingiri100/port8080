@@ -1,28 +1,43 @@
 import COLORS from "../theme/color";
 
+import emrBanner from '../assets/Image/emrBanner.png';
+import fly91Banner from '../assets/Image/fly91Banner.png';
+import KVBBanner from '../assets/Image/KVBBanner.png';
+import petromoneyBanner from '../assets/Image/petromoneyBanner.png';
+import myRepublicBanner from '../assets/Image/myRepublicBanner.png';
+
+
+// assets
 export const CRT_TA_SONNA = {
+
+  // splash screen
+  splashScreenLoadingText:[
+    {text:"Software Engineer",color:"white"},
+    {text:"App Developer",color:"white"},
+    {text:"Web Developer",color:"white"},
+    {text:"Animator",color:"white"},
+    {text:"Santhosh Kumar",color:COLORS.accentColor},
+  ],
 
 // Hero Page:
   hero_page_title:"SANTHOSH",
   hero_page_discription:"App/Web development & design since 2019 ✨",
   hero_page_bg_image_url:"https://images.pexels.com/photos/2387793/pexels-photo-2387793.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-  hero_page_avialable_card:{pluseColor:'red',text:'Available'},
+  hero_page_avialable_card:{pluseColor:COLORS.accentColor,text:'Available'},
   hero_page_contact_text:'Contact',
   hero_page_title01:'SOFTWARE',
   hero_page_title02:'ENGINEER',
   hero_page_description:'I help entrepreneurs and businesses grow online by designing and building custom WordPress websites. From design to scalable code development, I manage the entire process from A to Z, always incorporating the latest trends and developments.',
   hero_page_work_button_text:"Discover my working method",
-  
   // About Page:
-
   about_page_card_image_url:"https://images.pexels.com/photos/792326/pexels-photo-792326.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
   about_page_card_side_word:"I Develope AMEZING APPS",
-  about_page_title01:"Valuable websites",
+  about_page_title01:"Valuable Works",
   about_page_title02:"made with",
   about_page_title03:"passion",
   about_page_title04:"and dedication",
-  about_page_descriptio01:'I help entrepreneurs and businesses grow online by designing and building custom WordPress websites. From design to scalable code development.',
-  about_page_descriptio02:"I help entrepreneurs and businesses grow online by designing and building custom WordPress websites. From design to scalable code development.",
+  about_page_descriptio01:'I thrive on research and development, pushing the boundaries to achieve what seems impossible.',
+  about_page_descriptio02:" My passion lies in helping entrepreneurs and businesses grow by designing and developing custom WordPress websites tailored to their unique needs. From creative design to scalable, high-performance code, I deliver solutions that not only look great but also function seamlessly.",
   about_page_work_button_text:"View My work",
 
 
@@ -32,31 +47,45 @@ export const CRT_TA_SONNA = {
   work_page_description:"My portfolio now consists of some 250+ completed websites. Below is a sampling of recent projects I am proud to have delivered.",
   work_cards :[
     {
-      title: "Petro-money",
-      section: "Finserve Module",
+      title: "ClinicX",
+      section: "Health Care",
       description:
-        "My portfolio now consists of some 250+ completed websites. Below is a sampling of recent projects I am proud to have delivered.",
-      tags: ["React.js", "React Native", "UI", "UX"],
+        "This products implifies medical data management for healthcare facilities.It is a SaaS product and white-labeled.It is currently live in PersonalEyes clinics in Australia.",
+      tags: ["React.js", "React Native","IPAD", "Swift UI", "Apple Pencil Kit","SaaS"],
       bgURL:
-        "https://images.pexels.com/photos/19671785/pexels-photo-19671785/free-photo-of-two-people-walking-down-a-path-in-the-fog.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+       emrBanner
     },
     {
       title: "Petro-money",
       section: "Finserve Module",
       description:
-        "My portfolio now consists of some 250+ completed websites. Below is a sampling of recent projects I am proud to have delivered.",
+        "Petro money is a digital lending platform that aims to transform petrol stations into vibrant commercial hubs.",
       tags: ["React.js", "React Native", "UI", "UX"],
       bgURL:
-        "https://images.pexels.com/photos/19671785/pexels-photo-19671785/free-photo-of-two-people-walking-down-a-path-in-the-fog.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+        petromoneyBanner
     },
     {
-      title: "Petro-money",
-      section: "Finserve Module",
-      description:
-        "My portfolio now consists of some 250+ completed websites. Below is a sampling of recent projects I am proud to have delivered.",
-      tags: ["React.js", "React Native", "UI", "UX"],
-      bgURL:
-        "https://images.pexels.com/photos/19671785/pexels-photo-19671785/free-photo-of-two-people-walking-down-a-path-in-the-fog.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      title: "KVB-TAB",
+      section: "LMS Module",
+      description:"Developed a cutting-edge banking application for the renowned Karur Vysya Bank(KVB),featuring chatbot modules for Lead Management Systems (LMS) and various common banking functions.",
+      tags: ["React.js", "React Native","UI","Push Notification","Notify"],
+      bgURL: KVBBanner
+        
+    },
+    {
+      title: "FLY-91",
+      section: "Airway's Onboarding Scanning App",
+      description: "Developed a user-friendly onboarding app with a high level of UX, reducing the scanning time in the onboarding process by incorporating haptic feedback, allowing users to complete the process without needing to look at their screen.",
+      tags: ["React Native", "Expo", "RN-Reanimated", "QR Scan"],
+      bgURL: fly91Banner
+    },
+    {
+      title: "MyRepublic-App",
+      section: "Telecom",
+      description:"Developed the MyRepublicApp,a ground breaking solution aimed at revolutionizing the user experience in connectivity.",
+      tags: ["React Native","RN-Reanimated","Skia","UI"],
+      bgURL: myRepublicBanner
+        
     },
     ],
   // Client Page
@@ -111,39 +140,38 @@ export const CRT_TA_SONNA = {
 
 
   // about Page 2
-  about_page02_card_image_url:"https://images.pexels.com/photos/792326/pexels-photo-792326.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+  about_page02_card_image_url:"https://images.pexels.com/photos/237272/pexels-photo-237272.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
   about_page02_card_side_word:"I Develope AMEZING APPS",
-  about_page02_title:"Frequently Asked Questions",
-  about_page02_description:"I help entrepreneurs and businesses grow online by designing and building custom WordPress websites. From design to scalable code development.I help entrepreneurs and businesses grow online by designing and building custom WordPress websites. From design to scalable code development.",
-  about_page02_carosuls:[
-    {
-      title: "What is your typical rate for building a custom web application?",
-      content:
-        "My rate for building a custom web application starts at 4500, depending on the complexity and specific requirements of the project.",
-    },
-    {
-      title:
-        "How long does it usually take you to develop a single-page application?",
-      content:
-        "Developing a single-page application typically takes about 4 to 6 weeks, depending on the features and design specifications.",
-    },
-    {
-      title: "What frameworks and libraries do you commonly use?",
-      content:
-        "I frequently use React.js for frontend development, along with libraries like Redux for state management and Material-UI for styling.",
-    },
-    {
-      title:
-        "Do you offer ongoing maintenance and updates after the project is completed?",
-      content:
-        "Yes, I offer ongoing maintenance and updates for a monthly fee starting at €250, which includes minor updates, bug fixes, and performance optimizations.",
-    },
-    {
-      title: "Can you integrate third-party APIs into the websites you develop?",
-      content:
-        "Absolutely. Integrating third-party APIs is a common part of my work. Depending on the complexity, this can add around €500 to €1000 to the overall project cost.",
-    },
-  ],
+  about_page02_title: "Frequently Asked Questions",
+about_page02_description: 
+  "I help entrepreneurs and businesses grow online by designing and building custom WordPress websites. From design to scalable code development, I bring ideas to life and make the impossible seem easy. Let’s grow together!",
+about_page02_carosuls: [
+  {
+    title: "What’s your rate for crafting an awesome custom web app?",
+    content: 
+      "Starting at Rs.20K, and that’s for a project so smooth, you’ll forget what stress feels like. Price varies depending on how many bells and whistles you need!",
+  },
+  {
+    title: "How long does it take to whip up a single-page app?",
+    content: 
+      "Typically, 1 to 4 weeks. But hey, if your project has a few extra quirks, it might take a bit longer. Quality takes time, right?",
+  },
+  {
+    title: "What’s in your toolbox of frameworks and libraries?",
+    content: 
+      "I’m a React.js wizard, often pairing it with Redux to keep things in order, and Material-UI to keep it looking sharp. It's like building with LEGO, but for the web!",
+  },
+  {
+    title: "Will you stick around after the project is done?",
+    content: 
+      "Of course! For a monthly fee starting at Rs.40K, I’ll be your digital handyman—bug fixes, performance tweaks, and updates to keep everything running smooth.",
+  },
+  {
+    title: "Can you hook up third-party APIs into my site?",
+    content: 
+      "You bet! API integrations are like adding sprinkles to a cake. Depending on the complexity, it can add €500 to €1000, but it’ll be the icing on top of your project.",
+  },
+],
 
   // contact Page
 
@@ -151,6 +179,7 @@ export const CRT_TA_SONNA = {
   contact_page_title02: "TOGETHER",
   contact_page_descriptioin:
     "I help entrepreneurs and businesses grow online by designing and building custom WordPress websites.",
+  contact_page_card_img:"https://images.pexels.com/photos/4391513/pexels-photo-4391513.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
   contact_page_card_title01: "SANTHOSH",
   contact_page_card_email: "santhosh100@gmail.com",
   contact_page_card_phone: "+91 8870551916",
@@ -168,10 +197,11 @@ export const CRT_TA_SONNA = {
       icon: "uil uil-github",
       tooltip: "Github",
     },
+    {
+      url: "https://github.com/Santhoshvellingiri100/",
+      icon: "uil uil-github",
+      tooltip: "Github",
+    },
   ],
-  contact_page_card_image:"https://images.pexels.com/photos/26078895/pexels-photo-26078895/free-photo-of-a-woman-in-a-hat-and-sunglasses-talking-on-a-phone.jpeg?auto=compress&cs=tinysrgb&w=1200"
-
-
-
-
+  contact_page_image:"https://images.pexels.com/photos/12564537/pexels-photo-12564537.jpeg?auto=compress&cs=tinysrgb&w=1200"
 }

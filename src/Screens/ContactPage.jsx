@@ -28,11 +28,14 @@ function ContactPage() {
           {/* contact card Image */}
           <div
             style={{
-              minWidth: "40%",
+              width: "40%",
               height: "100%",
               backgroundColor: COLORS.accentColor,
+              overflow:'hidden'
             }}
-          ></div>
+          >
+            <img style={{width:"100%",height:'100%',objectFit:'cover'}} src={CRT_TA_SONNA.contact_page_card_img}/>
+          </div>
 
           <div
             style={{
@@ -78,7 +81,7 @@ function ContactPage() {
         <Label01>{CRT_TA_SONNA.contact_page_card_address02}</Label01>
       </div>
       <div className={styles.contactRightSection}>
-        <img style={{width:"100%",height:"100%"}} src={CRT_TA_SONNA.contact_page_card_image}/>
+        <img style={{width:"100%",height:"100%"}} src={CRT_TA_SONNA.contact_page_image}/>
       </div>
     </div>
   );

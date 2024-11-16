@@ -4,8 +4,10 @@ import { Heading02, Label01, Label02, Title01, Title02 } from "../theme/fonts";
 import WorkCard from "../components/WorkCard";
 import COLORS from "../theme/color";
 import { CRT_TA_SONNA } from "../meta/data";
+import SickPage from "./sickPage";
 
 function ClientPage() {
+  
   return (
     <div className={styles.clientPageContainer}>
 

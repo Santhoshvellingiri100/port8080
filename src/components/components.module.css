@@ -46,6 +46,7 @@
 .outlineButtonContainer {
     padding: .9rem 1rem;
     min-width: 100px;
+    height: 50px;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -121,7 +122,7 @@
 /* work card */
 .workCardContainer {
     width: 100%;
-    aspect-ratio: 1/2;
+    aspect-ratio: 1/.5;
     border-radius: 2rem;
     /* background-color: red; */
     overflow: hidden;
@@ -152,7 +153,7 @@
     height: 100%;
     z-index: -1;
     border-radius: 1.9rem;
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0), #0e0d0d);
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0), #0e0d0d7e);
 }
 
 
@@ -342,7 +343,7 @@
         row-gap: .5rem;
     }
     .headerDescriptionRight{
-        display: flex;
+        display: none;
         width: 100%;
         padding: .5rem;
     

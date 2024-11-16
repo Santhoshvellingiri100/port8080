@@ -63,23 +63,23 @@ const FONTS = {
         color: 'white'
     },
     label01: {
-        fontSize: 'clamp(0.7rem, 1.5vw, 1rem)', // Reduced min size by 0.1rem
+        fontSize: 'clamp(.9rem, 1.5vw, 1rem)', // Reduced min size by 0.1rem
         fontWeight: '600',
         fontFamily: FontFamily02,
-        lineHeight: 'clamp(0.7rem, 2vw, 1rem)', // Reduced min size by 0.1rem
+        lineHeight: 'clamp(1.8rem, 2vw, 3rem)', // Reduced min size by 0.1rem
         color: 'white'
     },
     label02: {
-        fontSize: 'clamp(0.6rem, 1.3vw, 0.9rem)', // Reduced min size by 0.1rem
+        fontSize: 'clamp(0.8rem, 1.3vw, 0.9rem)', // Reduced min size by 0.1rem
         fontWeight: '400',
         fontFamily: FontFamily02,
-        lineHeight: 'clamp(0.6rem, 1.7vw, 0.9rem)', // Reduced min size by 0.1rem
+        lineHeight: 'clamp(1.4rem, 1.7vw, 0.9rem)', // Reduced min size by 0.1rem
         color: 'white'
     },
     smallText01: {
-        fontSize: 'clamp(0.5rem, 1.2vw, 0.8rem)', // Reduced min size by 0.1rem
+        fontSize: 'clamp(0.7rem, 1.2vw, 0.8rem)', // Reduced min size by 0.1rem
         fontFamily: FontFamily02,
-        lineHeight: 'clamp(0.5rem, 1.5vw, 1.5rem)', // Reduced min size by 0.1rem
+        lineHeight: 'clamp(.5rem, 2vw, 1.5rem)', // Reduced min size by 0.1rem
         color: 'white'
     },
     smallText02: {

@@ -52,13 +52,12 @@ function AboutPage2() {
 const AboutImageCard = () => {
   return (
     <div className={styles.about2ImageCard}>
-      
-        <img
+      <div className={styles.about2ImageContainer}>
+      <img
           src={CRT_TA_SONNA.about_page02_card_image_url}
           style={{ backgroundColor: "red", width: "100%", height: "100%" }}
         ></img>
-      
-
+      </div>
       <Label01 className={styles.aboutImageCardText}>
         {CRT_TA_SONNA.about_page02_card_side_word}
         <div className={styles.aboutImageCardBefore}></div>

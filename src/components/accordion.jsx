@@ -70,8 +70,8 @@ function Accordion({ elements }) {
                   : styles.accordionContentClose
               }
             >
-              <div style={{ padding: "2rem",width:"100%" ,transition:"all 600ms ease"}}>
-                <SmallText01 style={{ padding: "2rem" }}>
+              <div style={{ padding: "1rem",width:"100%" ,transition:"all 600ms ease"}}>
+                <SmallText01 style={{ padding: "1rem" }}>
                   {item.content}
                 </SmallText01>
               </div>

@@ -1,0 +1,52 @@
+/* html,body {
+    width: 100%;
+    overscroll-behavior: none;
+    min-height: 100%;
+}
+body::-webkit-scrollbar {
+    display: none;
+} */
+
+.sickScreen{
+    /* width: 100vw;
+    /* height: 100vh; */
+    background-color: rgba(8, 44, 72, 0.267);
+} */
+/* h1 { 
+    font-size: 14rem; 
+    font-family: 'Bebas Neue';
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    margin: 0;
+    color: white;
+} */
+.sickPageLineSection  .sickPageimgSection{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    height: 100vh;
+    margin: 0 auto;
+}
+/* .gallery {
+    height: 200vh;
+} */
+
+.sickImg{
+    width: 100%;
+    height: 300px;
+    position: relative;
+    background-size: cover;
+    z-index: -1;
+}
+
+.sickScreenline {
+    border-right: 1px solid black;
+}
+
+.currrentWork{
+    width: 100%;
+    height: 300px;
+    /* background-color: red; */
+}
