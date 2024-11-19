@@ -70,7 +70,7 @@ const elements = [
 ];
 function WorkPage() {
   return (
-    <div className={styles.workPageContainer}>
+    <div id={"workPageID"} className={styles.workPageContainer}>
       <div style={{padding:0,margin:0,height:300}} className={styles.workPageHeader}>
         <Title02 className={styles.workPageHederHeadText}>
          {CRT_TA_SONNA.work_page_title}

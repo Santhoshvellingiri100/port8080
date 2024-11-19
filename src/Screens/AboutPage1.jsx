@@ -44,7 +44,15 @@ function AboutPage1() {
          {CRT_TA_SONNA.about_page_descriptio02}
         </Label01>
 
-        <LinkButton key={"view My work"}>{CRT_TA_SONNA.about_page_work_button_text}</LinkButton>
+        <LinkButton 
+        
+        onClick={() => {
+          const contactElement = document.getElementById("aboutPage2ID");
+          if (contactElement) {
+            contactElement.scrollIntoView({ behavior: "smooth" });
+          }
+        }}
+        key={"view My work"}>{CRT_TA_SONNA.about_page_work_button_text}</LinkButton>
       </div>
     </div>
   );

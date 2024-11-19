@@ -46,10 +46,15 @@
 }
 .heroPageContainer {
     width: 100vw;
-    max-height: 100vh;
-    padding-top: 100px;
+    height: 100vh;
+    /* padding-top: 100px; */
     /* background-color: var(--primary-color-03); */
     /* background-color: red; */
+    /* background-color: black; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     position: relative;
 
 }
@@ -75,7 +80,7 @@
     /* background-color: var(--primary-color-03); */
     /* background-color: blueviolet; */
     padding: 10rem;
-    padding-top: 0px;
+    
 }
 
 .textContainer {
@@ -94,9 +99,9 @@
 }
 
 .aboutImageCard {
-    width: 30%;
-    height: 70%;
-    background-color: var(--accent-color-03);
+    width: 25%;
+    /* background-color: var(--accent-color-03); */
+    aspect-ratio: 1/1.2;
     border-radius: 2.5rem;
     position: relative;
 
@@ -288,10 +293,11 @@
 
 .about2ImageCard {
     width: 70vw;
-    height: 70vh;
-    background-color: var(--accent-color);
+    /* height: 70vh; */
+    /* background-color: var(--accent-color); */
     border-radius: 2.5rem;
     position: relative;
+    aspect-ratio: 1/.4;
     /* overflow: hidden; */
 }
 .about2ImageContainer{
@@ -445,7 +451,7 @@
     }
 
     .aboutPageContainer {
-        min-height: 150vh;
+        height: 150vh;
         flex-direction: column;
         padding: 1.5rem;
         background-color: black;

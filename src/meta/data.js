@@ -28,7 +28,7 @@ export const CRT_TA_SONNA = {
   hero_page_title01:'SOFTWARE',
   hero_page_title02:'ENGINEER',
   hero_page_description:'I help entrepreneurs and businesses grow online by designing and building custom WordPress websites. From design to scalable code development, I manage the entire process from A to Z, always incorporating the latest trends and developments.',
-  hero_page_work_button_text:"Discover my working method",
+  hero_page_work_button_text:"View My work",
   // About Page:
   about_page_card_image_url:"https://images.pexels.com/photos/792326/pexels-photo-792326.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
   about_page_card_side_word:"I Develope AMEZING APPS",
@@ -38,7 +38,7 @@ export const CRT_TA_SONNA = {
   about_page_title04:"and dedication",
   about_page_descriptio01:'I thrive on research and development, pushing the boundaries to achieve what seems impossible.',
   about_page_descriptio02:" My passion lies in helping entrepreneurs and businesses grow by designing and developing custom WordPress websites tailored to their unique needs. From creative design to scalable, high-performance code, I deliver solutions that not only look great but also function seamlessly.",
-  about_page_work_button_text:"View My work",
+  about_page_work_button_text:"Discover my working method",
 
 
   // work Page
@@ -198,9 +198,9 @@ about_page02_carosuls: [
       tooltip: "Github",
     },
     {
-      url: "https://github.com/Santhoshvellingiri100/",
-      icon: "uil uil-github",
-      tooltip: "Github",
+      url: "https://www.instagram.com/_lucifer_sk/",
+      icon: "uil uil-instagram",
+      tooltip: "Instagram",
     },
   ],
   contact_page_image:"https://images.pexels.com/photos/12564537/pexels-photo-12564537.jpeg?auto=compress&cs=tinysrgb&w=1200"

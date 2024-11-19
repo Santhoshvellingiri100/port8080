@@ -18,21 +18,21 @@ import Study from './Study'
 function DashBoard() {
   // images loaeder
   const [loading,setLoading] = useState(true);
-  const lenisRef = useRef()
-  gsap.registerPlugin(ScrollTrigger)
+  // const lenisRef = useRef()
+  // gsap.registerPlugin(ScrollTrigger)
   
-  useEffect(() => {
+  // useEffect(() => {
 
-    function update(time) {
-      lenisRef.current?.lenis?.raf(time * 1000)
-    }
+  //   function update(time) {
+  //     lenisRef.current?.lenis?.raf(time * 1000)
+  //   }
   
-    gsap.ticker.add(update)
+  //   gsap.ticker.add(update)
   
-    return () => {
-      gsap.ticker.remove(update)
-    }
-  })
+  //   return () => {
+  //     gsap.ticker.remove(update)
+  //   }
+  // })
   // return(
   //   <Camelion/>
   // )
@@ -48,7 +48,7 @@ function DashBoard() {
       {loading ? <SplashPage setisLoading={setLoading}/>
       
       :
-      <ReactLenis root>
+      <>
       <HeroPage/>
       <AboutPage1/>
       <WorkPage/>
@@ -56,7 +56,7 @@ function DashBoard() {
       <AboutPage2/>
       <ContactPage/>
 
-      </ReactLenis>}
+      </>}
       
       {/* <DemoPage/> */}
     </div>

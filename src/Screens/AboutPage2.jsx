@@ -6,7 +6,7 @@ import Accordion from "../components/accordion";
 import { CRT_TA_SONNA } from "../meta/data";
 function AboutPage2() {
   return (
-    <div className={styles.aboutPage2Container}>
+    <div id={"aboutPage2ID"} className={styles.aboutPage2Container}>
       {/* card */}
       <AboutImageCard />
       <div className={styles.aboutPage2FQAContainer} style={{}}>

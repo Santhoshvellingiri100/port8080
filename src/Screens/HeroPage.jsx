@@ -44,11 +44,10 @@ function HeroPage() {
 
   return (
 
-    <div className={styles.screenContainer}>
+    <div className={styles.heroPageContainer}>
        <img src={CRT_TA_SONNA.hero_page_bg_image_url} 
      className={styles.heroPageIMGContainer} ></img>
- <div className={styles.heroPageContainer}>
-      {/* image bg */}
+ <div className={styles.heroPageContainer} style={{display:"flex",flexDirection:"column",justifyContent:"center"}}>
       
      
       <Header />
@@ -62,7 +61,14 @@ function HeroPage() {
         >
           {CRT_TA_SONNA.hero_page_description}
         </Label01>
-        <LinkButton>{CRT_TA_SONNA.hero_page_work_button_text}</LinkButton>
+        <LinkButton 
+         onClick={() => {
+          const contactElement = document.getElementById("workPageID");
+          if (contactElement) {
+            contactElement.scrollIntoView({ behavior: "smooth" });
+          }
+        }}
+        >{CRT_TA_SONNA.hero_page_work_button_text}</LinkButton>
       </div>
     </div>
 
