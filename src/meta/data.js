@@ -197,11 +197,11 @@ about_page02_carosuls: [
       icon: "uil uil-github",
       tooltip: "Github",
     },
-    // {
-    //   url: "https://www.instagram.com/_lucifer_sk/",
-    //   icon: "uil uil-instagram",
-    //   tooltip: "Instagram",
-    // },
+    {
+      url: "https://www.instagram.com/_lucifer_sk/",
+      icon: "uil uil-instagram",
+      tooltip: "Instagram",
+    },
   ],
   contact_page_image:"https://images.pexels.com/photos/12564537/pexels-photo-12564537.jpeg?auto=compress&cs=tinysrgb&w=1200"
 }
