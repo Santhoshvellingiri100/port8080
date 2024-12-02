@@ -73,7 +73,7 @@ function HeroPage() {
         >{CRT_TA_SONNA.hero_page_work_button_text}</LinkButton>
       </div>
 
-      <JokeWidget/>
+      {/* <JokeWidget/> */}
       </div>
      
     </div>
