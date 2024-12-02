@@ -13,6 +13,7 @@ import { useRef } from "react";
 import SplitType from 'split-type'
 import gsap from "gsap";
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
+import JokeWidget from "../components/jokeWidget";
 
 function HeroPage() {
 
@@ -51,6 +52,7 @@ function HeroPage() {
       
      
       <Header />
+      <div style={{width:"100%",height:'100%',display:'flex',alignItems:"center",justifyContent:"center",flexDirection:"row"}}>
       <div className={styles.heroPageConentContainer}>
         <Title01 style={{ color: COLORS.accentColor }}>{CRT_TA_SONNA.hero_page_title01}</Title01>
         <Title01 style={{ color: "white" }}>{CRT_TA_SONNA.hero_page_title02}</Title01>
@@ -70,6 +72,10 @@ function HeroPage() {
         }}
         >{CRT_TA_SONNA.hero_page_work_button_text}</LinkButton>
       </div>
+
+      <JokeWidget/>
+      </div>
+     
     </div>
 
     </div>

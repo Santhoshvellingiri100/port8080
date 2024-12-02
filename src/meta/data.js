@@ -31,7 +31,7 @@ export const CRT_TA_SONNA = {
   hero_page_work_button_text:"View My work",
   // About Page:
   about_page_card_image_url:"https://images.pexels.com/photos/792326/pexels-photo-792326.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-  about_page_card_side_word:"I Develope AMEZING APPS",
+  about_page_card_side_word:"I Develope AMAZING APPS",
   about_page_title01:"Valuable Works",
   about_page_title02:"made with",
   about_page_title03:"passion",

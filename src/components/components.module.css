@@ -313,6 +313,12 @@
     transition: 500ms all ease;
 }
 
+.jokeWidgetContainer{
+    width: 30vw;
+    height: 30vw;
+    background-color: red;
+}
+
 /* animation */
 @keyframes pluseAnimation {
     100% {
