@@ -6,6 +6,10 @@ import KVBBanner from '../assets/Image/KVBBanner.png';
 import petromoneyBanner from '../assets/Image/petromoneyBanner.png';
 import myRepublicBanner from '../assets/Image/myRepublicBanner.png';
 
+// my Images
+import me1 from '../assets/Image/me1.png'
+import me2 from '../assets/Image/me21.png'
+import mebg from '../assets/Image/mebg.jpeg'
 
 // assets
 export const CRT_TA_SONNA = {
@@ -30,7 +34,7 @@ export const CRT_TA_SONNA = {
   hero_page_description:'I help entrepreneurs and businesses grow online by designing and building custom WordPress websites. From design to scalable code development, I manage the entire process from A to Z, always incorporating the latest trends and developments.',
   hero_page_work_button_text:"View My work",
   // About Page:
-  about_page_card_image_url:"https://images.pexels.com/photos/792326/pexels-photo-792326.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+  about_page_card_image_url:me1,
   about_page_card_side_word:"I Develope AMAZING APPS",
   about_page_title01:"Valuable Works",
   about_page_title02:"made with",
@@ -140,7 +144,7 @@ export const CRT_TA_SONNA = {
 
 
   // about Page 2
-  about_page02_card_image_url:"https://images.pexels.com/photos/237272/pexels-photo-237272.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+  about_page02_card_image_url:mebg,
   about_page02_card_side_word:"I Develope AMEZING APPS",
   about_page02_title: "Frequently Asked Questions",
 about_page02_description: 
@@ -179,7 +183,7 @@ about_page02_carosuls: [
   contact_page_title02: "TOGETHER",
   contact_page_descriptioin:
     "I help entrepreneurs and businesses grow online by designing and building custom WordPress websites.",
-  contact_page_card_img:"https://images.pexels.com/photos/4391513/pexels-photo-4391513.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+  contact_page_card_img:me2,
   contact_page_card_title01: "SANTHOSH",
   contact_page_card_email: "santhosh100@gmail.com",
   contact_page_card_phone: "+91 8870551916",
@@ -203,5 +207,5 @@ about_page02_carosuls: [
       tooltip: "Instagram",
     },
   ],
-  contact_page_image:"https://images.pexels.com/photos/12564537/pexels-photo-12564537.jpeg?auto=compress&cs=tinysrgb&w=1200"
+  contact_page_image:"https://images.unsplash.com/photo-1587560699334-bea93391dcef?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8Y29udGFjdCUyMHVzfGVufDB8fDB8fHww"
 }
