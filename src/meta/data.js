@@ -187,7 +187,7 @@ about_page02_carosuls: [
   contact_page_card_title01: "SANTHOSH",
   contact_page_card_email: "santhosh100@gmail.com",
   contact_page_card_phone: "+91 8870551916",
-  contact_page_card_company: "PENTAFOX TECHNOLOGIES",
+  contact_page_card_company: "ZOHO CORP",
   contact_page_card_address01: "157/4 SKB Nagar,Therkkupalayam",
   contact_page_card_address02: "Pallipalayam - 638008",
   contact_icons_data:[
