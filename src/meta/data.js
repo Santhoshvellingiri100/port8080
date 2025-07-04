@@ -77,14 +77,6 @@ export const CRT_TA_SONNA = {
         
     },
     {
-      title: "KVB-TAB-saileash_don",
-      section: "LMS Module",
-      description:"Developed a cutting-edge banking application for the renowned Karur Vysya Bank(KVB),featuring chatbot modules for Lead Management Systems (LMS) and various common banking functions.",
-      tags: ["React.js", "React Native","UI","Push Notification","Notify"],
-      bgURL: KVBBanner
-        
-    },
-    {
       title: "FLY-91",
       section: "Airway's Onboarding Scanning App",
       description: "Developed a user-friendly onboarding app with a high level of UX, reducing the scanning time in the onboarding process by incorporating haptic feedback, allowing users to complete the process without needing to look at their screen.",
